@@ -16,7 +16,7 @@ class SensorApp extends StatelessWidget {
     final centerY = MediaQuery.of(context).size.height / 2 - 50;
     return Scaffold(
       appBar: AppBar(
-        title: Text('수평계'),
+        title: const Text('수평계'),
       ),
       body: Stack(
         children: [
@@ -39,7 +39,7 @@ class SensorApp extends StatelessWidget {
                   child: Container(
                     width: 100,
                     height: 100,
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                       shape: BoxShape.circle,
                       image: DecorationImage(
                           image: AssetImage('assets/clover.png'),
